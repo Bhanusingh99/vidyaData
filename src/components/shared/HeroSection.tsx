@@ -20,13 +20,13 @@ const HeroSection = () => {
   return (
     <div className="w-full relative overflow-hidden">
       {/* Background image container */}
-      <div className="absolute z-0 w-full h-[100%] max-sm:mt-[-45rem] mt-[-30rem] flex items-center justify-center">
+      <div className="absolute z-0 w-full h-screen max-sm:mt-[-5rem]  flex items-center justify-center">
         <Image
           src={"/lineareffect.svg"}
           height={200}
-          width={693}
+          width={700}
           alt="effect"
-          className="max-md:h-screen w-full"
+          className="max-md:h-screen max-md:w-full"
         />
       </div>
 
