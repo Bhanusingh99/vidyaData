@@ -168,7 +168,7 @@ const HeroSection = () => {
       </div>
 
     <div className="w-full">
-          <img src="/vector 27.svg" alt="" className="w-full mt-[-15rem] max-xl:mt-[-3rem] z-30"/>
+          <img src="/vector 27.svg" alt="" className="w-full z-30"/>
     </div>
 
     </div>
