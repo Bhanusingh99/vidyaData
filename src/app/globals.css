@@ -11,3 +11,6 @@
 .signInShadow{
     box-shadow: 0 0 10px rgb(167, 206, 221);
 }
+.enrollbtnShadow{
+    box-shadow: 0 0 10px #4b61ce95;
+}

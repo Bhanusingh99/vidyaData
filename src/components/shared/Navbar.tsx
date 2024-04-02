@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <nav className="w-full h-[4.75rem] border-b-[1px] items-center flex justify-between px-[3.5rem] max-lg:px-4">
       <div>
-        <Image src="/diff-logo.png" height={90} width={90} alt="logo" />
+        <Image src="/vidyalogo.svg" height={111} width={111} alt="logo" />
       </div>
 
       <div className="w-[92%] max-xl:w-[90%] flex justify-between px-4 max-lg:justify-end">
@@ -43,11 +43,11 @@ const Navbar = () => {
         <div className="flex gap-6">
           <DarkModeToggle isDarkMode={isDarkMode} toggleMode={toggleMode} />
 
-          <Link href="/contact" style={dmSans.style} className="bg-[#F98A87] px-4 py-2 text-[14px] text-white rounded-[8px] font-medium max-lg:hidden">
+          <Link href="/contact" style={dmSans.style} className="bg-[#F98A87] flex items-center justify-center h-[39px] w-[139px] text-[16px] text-white rounded-[8px] font-bold max-lg:hidden">
             Contact Now
           </Link>
 
-          <Link href="/signin" style={dmSans.style} className="px-6 signInShadow py-2 text-[14px] text-black rounded-[8px] font-medium max-lg:hidden">
+          <Link href="/signin" style={dmSans.style} className="flex items-center justify-center h-[39px] w-[139px] text-[16px] signInShadow text-black rounded-[8px] font-bold max-lg:hidden">
             Sign In
           </Link>
 

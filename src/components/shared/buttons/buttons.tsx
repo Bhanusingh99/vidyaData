@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const EnrollNowButton = () => {
     return (
-        <Link href='/' className="z-50 flex items-center bg-[#5CA2D4] h-[70px] w-[240px] rounded-xl max-md:w-[169.9px] max-md:h-[49.56px]">
+        <Link href='/' className="z-50 flex items-center enrollbtnShadow bg-[#5CA2D4] h-[70px] w-[240px] rounded-xl max-md:w-[169.9px] max-md:h-[49.56px]">
             <span className="h-[54px] w-[30px] max-md:w-[21.5px] max-md:h-[32px] max-md:ml-[.79px] bg-[#F3D251] rounded-r-[2rem]"></span>
             <button className="w-[80%] h-[100%] flex items-center justify-center text-white text-[18px] max-md:text-[16px]  font-bold">
             Enroll Now

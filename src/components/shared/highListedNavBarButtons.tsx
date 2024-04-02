@@ -26,7 +26,7 @@ const HighListedNavBarButtons = () => {
   const pathname = usePathname();
 
   return (
-    <div className="flex items-end gap-12 text-[13.5px] font-medium text-[#8A90A2] max-lg:hidden">
+    <div className="flex items-end gap-12 text-[18px] font-medium text-[#8A90A2] max-lg:hidden">
       <NavItem href="/" text="Home" isActive={pathname === "/"} style={dmSans.style}/>
       <NavItem href="/faqs" text="FAQs" isActive={pathname === "/faqs"} style={dmSans.style}/>
       <NavItem href="/all-course" text="All Courses" isActive={pathname === "/all-course"} style={dmSans.style}/>
