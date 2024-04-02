@@ -94,7 +94,7 @@ const HeroSection = () => {
 
         {/* Rating */}
         <div className="w-[216px] h-[44px] my-3 z-50 flex justify-between items-center">
-          <img src="/group sv.svg" />
+          <img src="/group sv.svg" alt=""/>
           <div className="h-[26px] w-[64px] rounded-[12px] bg-black flex gap-1 items-center justify-center">
             <p className="text-white text-[15px] font-bold">4.7</p>
             <Star color="white" size={14} />
@@ -145,7 +145,7 @@ const HeroSection = () => {
 
       <div className="w-full flex max-lg:flex-col">
         <div className="w-[50%] flex justify-center items-center max-lg:w-full">
-          <img src="/mendesign.svg" className="w-[653px] h-[623px] mt-[-5rem] max-md:mt-[-15rem]" />
+          <img src="/mendesign.svg" alt="" className="w-[653px] h-[623px] mt-[-5rem] max-md:mt-[-15rem]" />
         </div>
         
         <div className="w-[50%]  px-8 max-lg:w-full max-md:mt-[-5rem]">
@@ -168,7 +168,7 @@ const HeroSection = () => {
       </div>
 
     <div className="w-full">
-          <img src="/vector 27.svg" className="w-full mt-[-15rem] max-xl:mt-[-3rem] z-30"/>
+          <img src="/vector 27.svg" alt="" className="w-full mt-[-15rem] max-xl:mt-[-3rem] z-30"/>
     </div>
 
     </div>
