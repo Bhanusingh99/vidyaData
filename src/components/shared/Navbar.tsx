@@ -5,6 +5,9 @@ import HighListedNavBarButtons from "../shared/highListedNavBarButtons";
 import { Moon, Sun } from "lucide-react";
 import Link from "next/link";
 import MobileNavbar from "./mobileNavbar";
+import localFont from "next/font/local";
+const dmSans = localFont({ src: "../fonts/DMSans-VariableFont_opsz,wght.ttf" });
+
 
 const DarkModeToggle = ({ isDarkMode, toggleMode }:any) => {
   return (
@@ -40,11 +43,11 @@ const Navbar = () => {
         <div className="flex gap-6">
           <DarkModeToggle isDarkMode={isDarkMode} toggleMode={toggleMode} />
 
-          <Link href="/contact" className="bg-[#F98A87] px-4 py-2 text-[14px] text-white rounded-[8px] font-medium max-lg:hidden">
+          <Link href="/contact" style={dmSans.style} className="bg-[#F98A87] px-4 py-2 text-[14px] text-white rounded-[8px] font-medium max-lg:hidden">
             Contact Now
           </Link>
 
-          <Link href="/signin" className="px-6 py-2 text-[14px] text-black rounded-[8px] font-medium shadow-lg max-lg:hidden">
+          <Link href="/signin" style={dmSans.style} className="px-6 signInShadow py-2 text-[14px] text-black rounded-[8px] font-medium max-lg:hidden">
             Sign In
           </Link>
 

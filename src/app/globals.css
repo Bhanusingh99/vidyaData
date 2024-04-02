@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.triagleShape{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.shadow{
+    box-shadow: 0 0 15px #F68786;
+}
+.signInShadow{
+    box-shadow: 0 0 10px rgb(167, 206, 221);
+}

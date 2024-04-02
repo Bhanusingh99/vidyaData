@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
+import localFont from "next/font/local";
+const dmSans = localFont({ src: "../fonts/DMSans-VariableFont_opsz,wght.ttf" });
+
 
 const NavItem = ({ href, text, isActive }:any) => {
   return (
@@ -24,9 +27,9 @@ const HighListedNavBarButtons = () => {
 
   return (
     <div className="flex items-end gap-12 text-[13.5px] font-medium text-[#8A90A2] max-lg:hidden">
-      <NavItem href="/" text="Home" isActive={pathname === "/"} />
-      <NavItem href="/faqs" text="FAQs" isActive={pathname === "/faqs"} />
-      <NavItem href="/all-course" text="All Courses" isActive={pathname === "/all-course"} />
+      <NavItem href="/" text="Home" isActive={pathname === "/"} style={dmSans.style}/>
+      <NavItem href="/faqs" text="FAQs" isActive={pathname === "/faqs"} style={dmSans.style}/>
+      <NavItem href="/all-course" text="All Courses" isActive={pathname === "/all-course"} style={dmSans.style}/>
     </div>
   );
 };
