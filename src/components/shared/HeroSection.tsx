@@ -156,7 +156,7 @@ const HeroSection = () => {
             hands-on practice and building projects
           </p>
           <p className="text-[#8A90A2] text-[18px] my-4 max-md:text-[16px]">
-            That&apos;s why we offer courses that enable you to apply what you've
+            That&apos;s why we offer courses that enable you to apply what you&apos;ve
             learned and see the results for yourself.
           </p>
           <p className="text-[#8A90A2] text-[18px] my-4 max-md:text-[16px] z-40">
