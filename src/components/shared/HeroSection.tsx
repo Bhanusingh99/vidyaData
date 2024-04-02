@@ -156,12 +156,12 @@ const HeroSection = () => {
             hands-on practice and building projects
           </p>
           <p className="text-[#8A90A2] text-[18px] my-4 max-md:text-[16px]">
-            That's why we offer courses that enable you to apply what you've
+            That&apos;s why we offer courses that enable you to apply what you've
             learned and see the results for yourself.
           </p>
           <p className="text-[#8A90A2] text-[18px] my-4 max-md:text-[16px] z-40">
             With a strong understanding of fundamentals and modern data
-            engineering tools, you'll be able to master high-demand skills and
+            engineering tools, you&apos;ll be able to master high-demand skills and
             take your career to the next level
           </p>
         </div>
