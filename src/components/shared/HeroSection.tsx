@@ -143,23 +143,23 @@ const HeroSection = () => {
       </div>
 
 
-      <div className="w-full flex max-lg:flex-col">
-        <div className="w-[50%] flex justify-center items-center max-lg:w-full">
-          <img src="/mendesign.svg" alt="" className="w-[653px] h-[623px] mt-[-5rem] max-md:mt-[-15rem]" />
+      <div className="w-full flex max-lg:flex-col z-50">
+        <div className="w-[45%] flex justify-center items-center max-lg:w-full">
+          <img src="/mendesign.svg" alt="" className="w-[653px] h-[623px] mt-[-5rem] max-md:mt-[-15rem] z-50" />
         </div>
         
-        <div className="w-[50%]  px-8 max-lg:w-full max-md:mt-[-5rem]">
+        <div className="w-[55%]  max-lg:w-full max-md:mt-[-5rem] px-10 z-50">
           <h2 className="text-[40px] text-[#6757A5] max-md:text-[32px]" style={Pacifico.style}>About Darshil Parmar</h2>
           <h1 className="text-[48px] font-bold text-black my-4 max-md:text-[32px]" style={PlusJakartaSans.style}>Freelance Data Engineer & Content Creator</h1>
-          <p className="text-[#8A90A2] text-[18px] my-4 max-md:text-[16px]">
+          <p className="text-[#8A90A2] text-[18px] my-4 max-md:text-[16px] w-[90%]">
             At Data Vidhya, we believe that the best way to learn is through
             hands-on practice and building projects
           </p>
-          <p className="text-[#8A90A2] text-[18px] my-4 max-md:text-[16px]">
+          <p className="text-[#8A90A2] text-[18px] my-4 max-md:text-[16px] w-[90%]">
             That&apos;s why we offer courses that enable you to apply what you&apos;ve
             learned and see the results for yourself.
           </p>
-          <p className="text-[#8A90A2] text-[18px] my-4 max-md:text-[16px] z-40">
+          <p className="text-[#8A90A2] text-[18px] my-4 max-md:text-[16px] z-50 w-[90%]">
             With a strong understanding of fundamentals and modern data
             engineering tools, you&apos;ll be able to master high-demand skills and
             take your career to the next level
@@ -167,8 +167,8 @@ const HeroSection = () => {
         </div>
       </div>
 
-    <div className="w-full">
-          <img src="/vector.jpg" alt="" className="w-full z-30 mt-[-2rem]"/>
+    <div className="w-full z-10 relative mt-[-12rem]">
+          <img src="/vector.jpg" alt="" className="w-full"/>
     </div>
 
     </div>
